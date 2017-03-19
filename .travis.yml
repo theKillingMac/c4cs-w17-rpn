@@ -1,10 +1,13 @@
 language: python
 python:
  - "3.5"
+before_install:
+ - pip install coveralls
 install:
  - pip install -r travis_req.txt
 script: 
  - make test
  - coverage run test_rpn.py test
-after_sucess: coveralls
+after_sucess: 
+ - coveralls
 
