@@ -26,6 +26,7 @@ def calculate(arg):
 			stack.append(result)
 	return stack.pop()
 
+
 def main():
 	while True:
 		result = calculate(input('rpn calc> '))
