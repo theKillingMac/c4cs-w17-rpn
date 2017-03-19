@@ -9,5 +9,5 @@ script:
  - make test
  - coverage run test_rpn.py test
 after_sucess: 
- - COVERALLS_REPO_TOKEN=6st2kcAht0A38q09mkRa1nUOBhVpYjCFE coveralls
+ - COVERALLS_REPO_TOKEN=6st2kcAht0A38q09mkRa1nUOBhVpYjCFE coveralls 
 
