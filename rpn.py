@@ -27,6 +27,13 @@ def calculate(arg):
 	return stack.pop()
 
 
+def help():
+        print("This is an rpn calculator!")
+        print("Supported operations include:")
+        print(OPERATORS.keys())
+        print("for any questions or comments please contact me at parthks@umich.edu")
+
+
 def main():
 	while True:
 		result = calculate(input('rpn calc> '))
